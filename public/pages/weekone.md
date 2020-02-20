@@ -3,6 +3,8 @@
 ## Schedule
 - What is an input? What is an output? (conversation + examples)
 - manipulating the DOM review
+	- DOM Manipulation Package
+	- Variables, loops, and conditionals Package
 - Api introduction, boilerplate
 - in-class group work: [simple input/output](/input-output)
 

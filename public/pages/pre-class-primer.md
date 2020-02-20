@@ -5,7 +5,7 @@ We realize that the degree of comfort with code for each student might vary grea
 
 _For next week_, we have a small primer assignment:
 
-Please download this [starter pack]() and [Sublime Text 3](https://sublimetext.com/3). 
+Please download this [starter pack](/files/primer.zip) and [Sublime Text 3](https://sublimetext.com/3). 
 
 In the starter pack, we&rsquo;ve already added a simple button in your html and an event-handler in your javascript. For next week, make this button do something to your html. It can add text, reveal a piece of existing content, or just change the way your button or the webpage looks by adding or removing [css](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style).
 
