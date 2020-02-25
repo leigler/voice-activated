@@ -5,7 +5,7 @@
 		<h1>Contact</h1>
 		<ul>
 			<li>Lukas Eigler-Harding, eigll343@newschool.edu</li>
-			<li>Rahul S. Shinde, rsubhashshinde@gmail.com</li>
+			<li>Rahul S. Shinde, shinr377@newschool.edu</li>
 		</ul>
 		<h1>Course Description</h1>
 		<p>Voice activated is a critical inquiry into the affordances of speech and text input interfaces on the web. Using Javascript, students will design and prototype experimental interactions through language input and  parsing. By grounding contemporary language interfaces in their historical precedents in early digital computing, we will focus on developing unique perspectives regarding personal voice, cultural assumptions, and accessibility. Through research, discussion, and the dissection of speech augmented software (Alexa, Siri, Google Assistant), students will draw attention to the implications of language and tone in interface design.</p>
