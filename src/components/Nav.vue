@@ -1,10 +1,27 @@
 <template>
-	<nav v-html="nav"></nav>
+	<nav>		
+		<h1>Currents: CD Workshop Series A</h1>
+		<p>
+			<router-link to="/">Workshop: Voice Activated</router-link>
+		</p>
+		<p>
+			<a target="_blank" href="/files/PSAM_3060_A_Fisher_Eigler-Harding_Provencher_S20.pdf">Syllabus</a>
+		</p>
+		<p>
+			<router-link to="/weekone">Week 1</router-link> ⟶ 
+			<router-link to="/weektwo">Week 2</router-link> ⟶ 
+			<router-link to="/weekthree">Week 3</router-link> ⟶ 
+			<router-link to="/weekfour">Week 4</router-link> ⟶ 
+			<router-link to="/weekfive">Week 5</router-link>
+		</p>
+		<p>
+			<router-link to="/assignments">Assignments</router-link>, 
+			<router-link to="/readings">Readings</router-link>, and 
+			<router-link to="/resources">Resources</router-link>
+		</p>
+	</nav>
 </template>
-
 <script>
-
-import showdown from 'showdown';
 
 export default {
   name: 'week',
@@ -17,30 +34,6 @@ export default {
   },
   props: {
     section: String
-  }, 
-	created: function() {
-		this.fetchNav()
-  },
-	methods: {
-		fetchNav(){
-			this.loading = true
-
-			return fetch(`/nav/${this.section}.md`)
-			.then(response => {
-				return response.text()
-			})
-			.then((responseMD) => {
-				let converter = new showdown.Converter(),
-						html      = converter.makeHtml(responseMD);
-				this.loading = false;
-				this.nav = html;
-
-			})
-			.catch((error) => {
-				this.error = true;
-				window.console.log(error)
-			})
-		}
   }
 }	
 </script>
