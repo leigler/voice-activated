@@ -3,6 +3,6 @@
 
 # Packages
 - [Primer](/files/primer.zip)
-- DOM Manipulation
-- Variables, loops, and conditionals
-- Speech Starter Pack
+- [DOM Manipulation](/files/dom_manipulation.zip)
+- [Variables, loops, and conditionals](/files/vars_and_objects.zip)
+- [Speech Starter Pack](/files/speech_starter_pack.zip)

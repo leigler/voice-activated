@@ -1,11 +1,11 @@
 # Week One
 
 ## Schedule
-- What is an input? What is an output? (conversation + examples)
+- [What is an input? What is an output?](/lecture-input-output) (conversation + examples)
 - manipulating the DOM review
-	- DOM Manipulation Package
-	- Variables, loops, and conditionals Package
-- Api introduction, boilerplate
+	- [DOM Manipulation](/lecture-dom) Review ([DOM Package](/files/dom_manipulation.zip))
+	- Variables, loops, and conditionals Review ([Var Package](/files/vars_and_objects.zip))
+- [Api introduction](/lecture-api), [Starter Package](/files/speech_starter_pack.zip)
 - in-class group work: [simple input/output](/input-output)
 
 ## Assignment

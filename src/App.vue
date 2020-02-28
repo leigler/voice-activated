@@ -260,6 +260,10 @@ ul{
   list-style: none;
 }
 
+ol{
+  padding-left: 2rem;
+}
+
 ul li:before{
   content: "";
   margin-bottom: 0.1rem;
