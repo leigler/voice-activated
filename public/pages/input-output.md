@@ -5,14 +5,14 @@ The goal of this assignment is to create a collection of audio-based input/outpu
 
 ## Considerations
 - Which words are optional in your commands?
+- What kinds of words can `annyang` understand easily? Which ones are harder for it to interpret?
 - Can you identify the limitations of this library?
 - How do you engage with the limits of this library?
 - Should the user be aware of these limits?
 - What do you wish you could tell your computer to do?
+- How might you sing to your computer?
 - What existing digital action can you translate to speech? How does that action change?
 - Tactility provides immediate haptic responsiveness to our actions. How might we translate this expectation into speech?
-- How might you sing to your computer?
-- What kinds of words can `annyang` understand easily? Which ones are harder for it to interpret?
 - In what environment are you comfortable talking to your computer?
 
 ## Requirements:
