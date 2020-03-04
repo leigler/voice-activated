@@ -5,7 +5,7 @@
 - Primer Discussion
 - [What is an input? What is an output?](/lecture-input-output) (conversation + examples)
 - [DOM Manipulation](/lecture-dom) Review ([DOM Package](/files/dom_manipulation.zip))
-- Variables, loops, and conditionals Review ([Var Package](/files/vars_and_objects.zip))
+- [Variables, loops, and conditionals](/vars-loops-cond) Review ([Var Package](/files/vars_and_objects.zip))
 - [Api introduction](/lecture-api), [Starter Package](/files/speech_starter_pack.zip)
 - in-class group work: [simple input/output](/input-output)
 
