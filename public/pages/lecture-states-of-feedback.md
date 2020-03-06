@@ -40,6 +40,12 @@
 		border: dotted 2px #8A2BE2;
 	}
 
+	@media(max-width: 768px){
+		.big{
+			width: 100%;
+		}
+	}
+
 </style>
 
 
@@ -64,8 +70,8 @@ Before a user can begin an interaction they need to know that the computer is li
 
 <a class="big" target="_blank" href="https://www.youtube.com/watch?v=b1dzK23CFjc">Siri Sound Effect</a>
 
-<video onclick="if(this.paused){ this.play()}else{this.pause()}" loop muted>
-	<source src="/files/lecture_assets/state-1.mp4" type="video/mp4">
+<video playsinline preload="metadata" onclick="if(this.paused){ this.play()}else{this.pause()}" loop muted>
+	<source src="/files/lecture_assets/state-1.mp4#t=0.1" type="video/mp4">
 </video>
 
 <a class="big" target="_blank" href="http://cleartones.net/">Cleartones</a>
@@ -74,8 +80,8 @@ Before a user can begin an interaction they need to know that the computer is li
 ## 2. Begin an input
 While a user is speaking to their device, there should be some sort of indication that they are being listened to. For example, Siri provides a subtle animation.
 
-<video onclick="if(this.paused){ this.play()}else{this.pause()}" loop muted>
-	<source src="/files/lecture_assets/state-2-3-4.mp4" type="video/mp4">
+<video playsinline preload="metadata" onclick="if(this.paused){ this.play()}else{this.pause()}" loop muted>
+	<source src="/files/lecture_assets/state-2-3-4.mp4#t=0.1" type="video/mp4">
 </video>
 
 
@@ -84,8 +90,8 @@ While a user is speaking to their device, there should be some sort of indicatio
 After the input has been completed there is an indication that it is being processed. Siri will display the text that it is processing on your screen to show you what it is responding too.
 
 
-<video onclick="if(this.paused){ this.play()}else{this.pause()}" loop muted>
-	<source src="/files/lecture_assets/state-2-3-4.mp4" type="video/mp4">
+<video playsinline preload="metadata" onclick="if(this.paused){ this.play()}else{this.pause()}" loop muted>
+	<source src="/files/lecture_assets/state-2-3-4.mp4#t=0.1" type="video/mp4">
 </video>
 
 <!-- Did you CAPTAIN Jack Sparrow meme -->
@@ -96,8 +102,8 @@ Outputs can exist in many forms, Siri will both dictate part of it's response an
 
 ![(meme) google search: jack sparrow, google suggestion: did you mean CAPTAIN JACK SPARROW?!](/files/lecture_assets/jack_sparrow_meme.png)
 
-<video onclick="if(this.paused){ this.play()}else{this.pause()}" loop muted>
-	<source src="/files/lecture_assets/state-2-3-4.mp4" type="video/mp4">
+<video playsinline preload="metadata" onclick="if(this.paused){ this.play()}else{this.pause()}" loop muted>
+	<source src="/files/lecture_assets/state-2-3-4.mp4#t=0.1" type="video/mp4">
 </video>
 
 ![state four: showing output of apple&rsquo;s siri](/files/lecture_assets/state4.jpeg)
