@@ -1,10 +1,14 @@
 # Week Two
 
+<!-- 
+https://github.com/0nn0/terminal-mac-cheatsheet#core-commands
+ -->
+
 ## Schedule
-- Class discussion on reading
-- Mini-lecture on States of Feedback
-- [Input/output](/input-output) Critique
-- Lecture on Annyang API Advanced Features
+- [Class discussion](/weekone-readings) on Readings
+- Mini-lecture on [States of Feedback](/lecture-states-of-feedback)
+- [Input/output](/input-output) [Critique](/io-critique)
+- Lecture on Annyang API [Advanced Features](/lecture-advanced-features)
 - In-class work: begin refinement of [input/outputs](/input-output)
 
 ## Assignment
