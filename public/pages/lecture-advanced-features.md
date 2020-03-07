@@ -26,7 +26,7 @@
 first open terminal: ('command + space', then search for 'terminal')
 ![Opening terminal](/files/starting_a_server/local_server1.jpg)
 
-type 'cd ' (be sure to include space) and then drag and drop the parent directory of your index.html file
+type 'cd ' (be sure to include space) and then drag and drop the parent directory of your index.html file, hit enter to move into that directory
 ![CD into parent directory by dragging and dropping](/files/starting_a_server/local_server2.jpg)
 
 you can then run the command php -S localhost:8000
