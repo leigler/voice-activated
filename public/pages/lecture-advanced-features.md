@@ -1,5 +1,41 @@
 # Lecture: Annyang API Advanced Features
 
+<style>
+  img{
+    display: block;
+    max-width: 100%;
+    max-height: 98vh;
+    object-fit: contain;
+    object-position: center;
+    box-sizing: border-box;
+    border: dotted 2px #8A2BE2;
+    cursor: none;
+
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  img:active, video:active{
+    filter: saturate(1000%) contrast(2000%) grayscale(100%);
+  }
+
+</style>
+
+## Starting a local server
+first open terminal: ('command + space', then search for 'terminal')
+![Opening terminal](/files/starting_a_server/local_server1.jpg)
+
+type 'cd ' (be sure to include space) and then drag and drop the parent directory of your index.html file, hit enter to move into that directory
+![CD into parent directory by dragging and dropping](/files/starting_a_server/local_server2.jpg)
+
+you can then run the command php -S localhost:8000
+![starting the server](/files/starting_a_server/local_server3.jpg)
+
+once the server is started you can view your index.html file by opening chrome and visiting the address localhost:8000
+![starting the server](/files/starting_a_server/local_server4.jpg)
+
+
 ## Event Listeners and Callbacks
 An event listener is a type of callback that can be used to identify interactions with the document. These are added using the following syntax:
 
