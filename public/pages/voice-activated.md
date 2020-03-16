@@ -13,3 +13,6 @@ Over the next two weeks you will conceptualize, prototype, and refine a voice ac
 
 ### Alternative
 If you have a specific project idea that you&rsquo;d like to realize over the next two weeks that doesn&rsquo;t fit the prompt, feel free to propose it! 
+
+### References
+[A collection of questions and references](/voice-and-interfaces) to consider throughout your final project.
