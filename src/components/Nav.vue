@@ -12,7 +12,8 @@
 			<router-link to="/weektwo">Week 2</router-link> ⟶ 
 			<router-link to="/weekthree">Week 3</router-link> ⟶ 
 			<router-link to="/weekfour">Week 4</router-link> ⟶ 
-			<router-link to="/weekfive">Week 5</router-link>
+      <router-link to="/weekfive">Week 5</router-link> ⟶
+			<router-link to="/final-projects">Final Projects</router-link>
 		</p>
 		<p>
 			<router-link to="/assignments">Assignments</router-link>, 
